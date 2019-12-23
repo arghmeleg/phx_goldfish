@@ -10,6 +10,9 @@ use Mix.Config
 config :phx_goldfish,
   ecto_repos: [PhxGoldfish.Repo]
 
+config :goldfish,
+  repo: PhxGoldfish.Repo
+
 # Configures the endpoint
 config :phx_goldfish, PhxGoldfishWeb.Endpoint,
   url: [host: "localhost"],
